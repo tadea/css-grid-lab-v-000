@@ -8,8 +8,8 @@ body {
   height: 100vh;
   width: 100vw;
   display: grid;
-  grid-template-rows: [header-start] 1fr [header-end] repeat(auto, 1fr);
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template: auto / 1fr 1fr 1fr;
+  grid-gap: 5px;
 }
 
 .grid-item {
